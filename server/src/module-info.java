@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Acer
- *
- */
-module server {
-}

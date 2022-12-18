@@ -15,7 +15,8 @@ public interface HodDao {
 	public String registerEngineer(Engineer engineer) throws EngineerException;
 	public List<Engineer> getAllEngineerDetails() throws EngineerException;
 	public String DeleteEngineer(int eid) throws EngineerException;
-	public Problem AsignProblemToEngineer(String problem) throws ProblemException;
+	public String AsignProblemToEngineer(Problem problems) throws ProblemException;
+	
 	
  
 }

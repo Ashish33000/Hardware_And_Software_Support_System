@@ -1,3 +1,5 @@
+
+
 package com.project.dao;
 
 import java.sql.Connection;
@@ -116,10 +118,26 @@ public class HodDaoImpl implements HodDao {
 		return message;
 	}
 
-	@Override
-	public Problem AsignProblemToEngineer(String problem) throws ProblemException {
-		// TODO Auto-generated method stub
-		return null;
+	public String AsignProblemToEngineer(Problem problem) throws ProblemException {
+		String message="Problem Not Assigns......";
+		try(Connection conn=DBUtil.provideConnection()) {
+			PreparedStatement ps=conn.prepareStatement("insert into problem(problem,status,cid,ename) values(?,?,floor(1+rand()*300),?)");
+			ps.setString(1, problem.getProblem());
+			ps.setString(2, problem.getStatus());
+			ps.setString(3, problem.getEname());
+			int x=ps.executeUpdate();
+			if(x>0) {
+				message="problem Assigns to engineer...........";
+			}
+		} catch (SQLException e) {
+			// TODO: handle exception
+			throw new ProblemException(e.getMessage());
+		}
+		
+;		
+		return message;
 	}
+
+	
 
 }

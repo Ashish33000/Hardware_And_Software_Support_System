@@ -7,7 +7,7 @@ import com.project.dao.HodDaoImpl;
 import com.project.exception.EngineerException;
 import com.project.model.Engineer;
 
-public class registerEmployeeUseCases {
+public class registerEngineerUseCases {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -19,7 +19,7 @@ public class HodloginUsecase {
 		HodDao dao=new HodDaoImpl();
 		try {
 			Hod hod=dao.loginHod(username, password);
-			System.out.println("Welcome: "+hod.getName());
+			System.out.println("Welcome HOD : "+hod.getName());
 		} catch (HodException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
