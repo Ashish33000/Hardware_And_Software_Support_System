@@ -9,7 +9,7 @@ import com.project.exception.EngineerException;
 import com.project.model.Engineer;
 import com.project.model.Hod;
 
-public class getAllEngineerDetailsUseCases {
+public class GetAllEngineerDetailsUseCases {
 
 	public static void main(String[] args) {
 		

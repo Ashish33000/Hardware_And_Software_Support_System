@@ -10,6 +10,7 @@ import com.project.model.Hod;
 public class HodloginUsecase {
 
 	public static void main(String[] args) {
+		System.out.println("Hello Hod Good Morning:.....");
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter username");
 		String username=sc.next();

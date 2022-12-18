@@ -11,6 +11,7 @@ import com.project.model.Employee;
 public class EmployeeLoginUsecases {
 
 	public static void main(String[] args) {
+		System.out.println("========Good Morning Employee===========");
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter username");
 		String username=sc.next();
