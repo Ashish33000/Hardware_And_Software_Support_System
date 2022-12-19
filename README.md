@@ -15,43 +15,7 @@ Technologies used: Core java, JDBC, MYSQL
 EER Diagerm
 
 <img src="https://user-images.githubusercontent.com/87129673/208494755-6ff23be1-a54a-4bde-a250-693da8a5063f.png" alt="">
-Tables in databases;
-mysql> select * from employee;
-+-----+-------+----------+-----------+----------+
-| eid | name  | address  | email     | password |
-+-----+-------+----------+-----------+----------+
-|   1 | Aman  | pune     | aman@123  | 12345    |
-|   2 | Rohit | Patna    | rohit@123 | 1234     |
-|   3 | Rahul | delhi    | rahul@123 | 123456   |
-|   4 | Rahul | delhi    | rahul@123 | 123456   |
-|   5 | Rohan | banglore | rohan@123 | 12345    |
-+-----+-------+----------+-----------+----------+
-mysql> select * from engineer;
-+-----+--------+---------+------------+----------+----------+
-| eid | name   | address | email      | password | category |
-+-----+--------+---------+------------+----------+----------+
-|   4 | Ashish | pune    | ashish@123 | 1234566  | software |
-|   6 | Bhanu  | chennai | bhanu@123  | 123456   | software |
-+-----+--------+---------+------------+----------+----------+
-2 rows in set (0.01 sec)
-mysql> select * from hod;
-+-----+------+---------+----------+----------+
-| hid | name | address | email    | password |
-+-----+------+---------+----------+----------+
-|   1 | Amit | Delhi   | Amit@123 | 1234     |
-+-----+------+---------+----------+----------+
-1 row in set (0.01 sec)
-mysql> select * from employee;
-+-----+-------+----------+-----------+----------+
-| eid | name  | address  | email     | password |
-+-----+-------+----------+-----------+----------+
-|   1 | Aman  | pune     | aman@123  | 12345    |
-|   2 | Rohit | Patna    | rohit@123 | 1234     |
-|   3 | Rahul | delhi    | rahul@123 | 123456   |
-|   4 | Rahul | delhi    | rahul@123 | 123456   |
-|   5 | Rohan | banglore | rohan@123 | 12345    |
-+-----+-------+----------+-----------+----------+
-5 rows in set (0.00 sec)
+
 Console Snapshots;
     <img src="https://user-images.githubusercontent.com/87129673/208497801-e1e8b39d-9254-44f9-aeb4-6fea2a3c06c3.PNG" alt="">
     <img src="https://user-images.githubusercontent.com/87129673/208497830-d7587154-55ea-4a6e-a33f-f1b485af183c.PNG" alt="">
