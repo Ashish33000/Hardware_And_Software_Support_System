@@ -11,3 +11,9 @@ Tasks of engineer -: Able to see new assigned complains by HOD. Able to update c
 Tasks of employee :- Can create a new account. Able login into the system. Able to register a new complain.Able to check the status. Able to see complain history. Able to change password.
 
 Technologies used: Core java, JDBC, MYSQL
+
+EER Diagerm
+
+<img src="https://user-images.githubusercontent.com/87129673/208494755-6ff23be1-a54a-4bde-a250-693da8a5063f.png" alt="">
+
+
